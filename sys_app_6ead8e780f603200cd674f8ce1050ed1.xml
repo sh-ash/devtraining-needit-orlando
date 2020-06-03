@@ -14,10 +14,10 @@
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
-        <scope>x_58872_needit</scope>
+        <scope>x_500312_needit</scope>
         <scoped_administration>false</scoped_administration>
         <short_description/>
-        <source>x_58872_needit</source>
+        <source>x_500312_needit</source>
         <store_correlation_id/>
         <store_url/>
         <sys_class_name>sys_app</sys_class_name>
