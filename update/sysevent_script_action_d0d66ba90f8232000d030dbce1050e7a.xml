@@ -3,7 +3,7 @@
         <active>true</active>
         <condition_script/>
         <description/>
-        <event_name>x_58872_needit.overdueNeedItTask</event_name>
+        <event_name>x_500312_needit.overdueNeedItTask</event_name>
         <name>Update Overdue NeedIt Task Priority</name>
         <order>100</order>
         <script><![CDATA[// Set the record priority to 1 - Critical
@@ -20,7 +20,7 @@ current.update();]]></script>
         <sys_mod_count>4</sys_mod_count>
         <sys_name>Update Overdue NeedIt Task Priority</sys_name>
         <sys_overrides/>
-        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_package display_value="NeedIt" source="x_500312_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sysevent_script_action_d0d66ba90f8232000d030dbce1050e7a</sys_update_name>

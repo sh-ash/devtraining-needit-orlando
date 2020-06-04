@@ -12,7 +12,7 @@
 	// Closed state.
 	var rightNow = new GlideDateTime();
 	
-	var overdueNITasks = new GlideRecord('x_58872_needit_needit_task');
+	var overdueNITasks = new GlideRecord('x_500312_needit_needit_task');
 	overdueNITasks.addQuery('due_date','<=',rightNow);
 	overdueNITasks.addQuery('state','!=',3);
 	overdueNITasks.addQuery('assigned_to',current.assigned_to);
@@ -32,7 +32,7 @@
         <sys_id>081b640b0f8672000d030dbce1050e04</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>CountOverdueNeedItTasksAssignedto</sys_name>
-        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_package display_value="NeedIt" source="x_500312_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_email_081b640b0f8672000d030dbce1050e04</sys_update_name>
